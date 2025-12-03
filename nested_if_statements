@@ -1,0 +1,14 @@
+# simple if/else statement
+if age >= 18:
+  print('You are old enough to apply for a loan.')
+else:
+  print('You are too young to apply for a loan.')
+
+# adding another if/else statement nested inside the outer if statement
+if age >= 18:
+  if income >= 20000:
+    print('You are eligible for a loan.')
+  else:
+    print('Your income is too low to be eligible for a loan.')
+else:
+  print('You are too young to apply for a loan.')
