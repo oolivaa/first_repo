@@ -12,3 +12,20 @@ if age >= 18:
     print('Your income is too low to be eligible for a loan.')
 else:
   print('You are too young to apply for a loan.')
+
+# answer by chatgpt
+
+# Create a rating variable and set it equal to a decimal number
+rating = 4.3
+
+# Rating system using if / elif / else
+if rating > 4.5:
+    print("Extraordinary")
+elif rating > 4:
+    print("Excellent")
+elif rating > 3:
+    print("Good")
+elif rating > 2:
+    print("Fair")
+else:
+    print("Poor")
